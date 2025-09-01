@@ -1,5 +1,5 @@
 // server/src/controllers/authController.js
-import User from '../models/User.js';
+import User from '../models/user.js';
 import jwt from 'jsonwebtoken';
 import { signupValidation, loginValidation } from '../Middlewares/authValidation.js';
 
