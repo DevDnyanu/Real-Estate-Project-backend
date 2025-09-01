@@ -18,7 +18,7 @@ const MONGO_URI = process.env.MONGODB_URI;
 
 const allowedOrigins = [
   "http://localhost:8080",
-  "http://localhost:3000",
+  "https://real-estate-project-frontend-tu11.vercel.app",
 ];
 
 app.use(
